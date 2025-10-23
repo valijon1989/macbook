@@ -1,3 +1,4 @@
+// FULTER componentini alohida qilib oldik
 import React, { useState } from "react";
 import { 
     Stack, 

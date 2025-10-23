@@ -11,8 +11,8 @@ const PropertyList: NextPage = () => {
     // DEVICE: MOBILE vs PC
     const device = useDeviceDetect();
     const [ properties, setProperties ] = useState<number[]>([1, 2, 3, 4, 5, 6]);
-
-    if (device === "mobile") {
+// bu yerda agar mobiledan kelsa shunchaki "PROPERTY LIST MOBILE" degan text chiqsin, aks holda esa quyidagi kod chiqsin
+    if (device === "mobile") { 
         return <Stack>PROPERTY LIST MOBILE</Stack>
     } else {
         return (
